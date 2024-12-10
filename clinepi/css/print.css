@@ -1,0 +1,149 @@
+* {
+  position: static;
+	max-width:100%;
+	}
+	
+	
+body {
+	background: white;
+	font-size: 0.6888em;
+/*	font-size: 8pt; */
+	}
+	
+#maincontainer {
+		background-color:#FFFFFF;
+		margin:auto;
+		width:auto;
+		}
+		
+.big {
+  width:6in;
+	}
+	
+#contentheader {
+  width:200px;
+	height:60px;
+	float:left;
+	}	
+	
+#contentheader img {
+  border:0px solid;
+	}
+	
+#titlebar {
+	font-size:1.125em;
+/*	font-size:14pt; */
+	font-weight:bold;
+	line-height:50px;
+	height: auto;
+	text-align:left;
+  color:#ccc;
+	}
+	
+#titlebar p {
+  display:inline;
+	margin:0;
+	padding:0;
+	color:#ccc;
+  }
+
+#navbar {
+  display:none;
+	}
+	
+#breadcrumb {
+  display:none;
+	}
+
+#main {
+  margin:0px;
+	width:auto;
+	text-align:left;
+	}
+	
+#hideDhtml {
+  display:none;
+	}
+
+#leftNavMain {
+  display:none;
+	}
+
+#sidebarContainer {
+  display:none;
+  }		
+	
+#content {
+  width: auto; 
+	margin: 0px 5%;
+	padding: 0; 
+	border: 0;
+  float: none !important;
+	color: black; 
+	background: transparent;
+	clear:both;
+	font-size: 0.813em;
+/*	font-size: 10pt; */
+	}
+#content h1 {
+	font-size:1.5em;
+/*	font-size:18pt; */
+	clear:left;
+	color:#000;
+	}
+
+#content h2 {
+  font-size:1.188em;
+/*  font-size:14pt; */
+	color:#000;
+	}
+
+#footer {
+ margin-top:15pt;
+ }
+	
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
+#content a[href^="/"]:after {
+  content: " (http://www.ucdmc.ucdavis.edu" attr(href) ") ";
+   }
+	 
+.left {
+clear:left;
+float:left;
+margin:10px 10px 10px 0pt;
+}
+.right {
+clear:right;
+float:right;
+margin:10px 0pt 10px 10px;
+}
+.top {
+margin-top:0px;
+}
+.quote {
+border-bottom:2px solid #D9C266;
+border-top:2px solid #D9C266;
+font-family:georgia,"times new roman",times,serif;
+font-size:1.125em;
+/*font-size:14pt; */
+line-height:normal;
+padding:10px 0px;
+}
+.quote img {
+margin:5px;
+}
+.photo {
+font-family:arial,helvetica,geneva,swiss,sunsans-regular;
+font-size:0.688em;
+/*font-size:8pt; */
+line-height:normal;
+}
+.photo img {
+margin-bottom:5px;
+}

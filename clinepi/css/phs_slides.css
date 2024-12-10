@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#phs_slides {
+/*	background-color: white;
+	background-repeat: no-repeat; 
+	top:0px; 
+	width:600px;
+	height:400px; */
+	position:aboslute;
+/*    
+	 */
+
+}
+
+/* ================ Horizon Slim ============== */
+ul.physicists li.neHS div.neHSc div.neHSf { 
+/*background:#b84212; */
+background:#668099; 
+opacity: 0.8; 
+}
+
+ul.physicists li.neHS div.neHSc div.neHSb div.neHSbb { 
+/*background:#eea701; */
+background:#4A8FBA; 
+
+}
+ul.neHS li.neHS div.neHSc div.neHSc neHSbt p { 
+padding-right:20px; 
+}

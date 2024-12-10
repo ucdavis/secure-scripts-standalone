@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+#phsLeft-container {
+	position:relative;
+	z-index:99;
+	}
+
+#phsLeft {
+	width: 180px;
+	border-top: solid 1px #99a8c2;
+	border-right: 1px solid #ffffff;
+	padding: 0px 0px 1em 0px;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-weight: bold;
+	font-size: 0.688em;
+/*	font-size: 90%; */
+	background-color: #ffffff;
+	color: #002666;
+	}
+
+#phsLeft ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		}
+
+#phsLeft li {
+		border-bottom: 1px solid #99a8c2;
+		margin: 0;
+/*		float: left;  */
+		}
+
+#phsLeft li a {
+		display: block;
+		padding: 2px 2px 2px 0.5em;
+		background-color: #ffffff;
+		color: #002666;
+		text-decoration: none;
+		width: 100%;
+
+		}
+		
+#phsLeft li a.subnav {
+		background-image:url(/images/nav-arrow.gif);
+		background-repeat:no-repeat;
+		background-position:right; 
+		visibility:visible;
+		}		
+
+html>body #phsLeft li a {
+		width: auto;
+		}
+
+#phsLeft li a:hover {
+		background-color: #dee6f2;
+		color: #002666;
+		}
+
+#phsLeft li ul {
+    position: absolute;
+    width: 10em;
+    left: -999em;
+	display: block;
+	padding: 1px 1px 1px 1px;
+	background-color: #dee6f2;
+	color: #002666;
+	text-decoration: none;
+	width: 180px;
+	font-weight:normal;
+	margin-left:180px;
+	margin-top:-21px;
+}
+
+#phsLeft li ul li {
+		border-bottom: 0px solid #99a8c2;
+		margin: 0;
+		background-color: #dee6f2;
+		color: #002666;
+		}
+		
+#phsLeft li ul li a {
+		border-bottom: 1px solid #ffffff;
+		background-color: #dee6f2;
+		color: #002666;
+		}
+
+#phsLeft li ul li a:hover {
+		background-color: #002666;
+		color: #ffffff;
+		}
+
+#phsLeft li:hover ul {
+    left: auto;
+}
+
+#phsLeft li ul ul {
+    margin: -1em 0 0 10em;
+}
+
+#phsLeft, #phsLeft ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none; 
+    line-height: 1.5;
+}
+
+#phsLeft li:hover ul ul, #phsLeft li.sfhover ul ul {
+    left: -999em;
+}
+
+#phsLeft li:hover ul, #phsLeft li li:hover ul, #phsLeft li.sfhover ul, #phsLeft li li.sfhover ul {
+    left: auto;
+	background-color: #002666;
+	color: #ffffff;
+}
+
+#phsLeft li:hover ul ul, #phsLeft li:hover ul ul ul, #phsLeft li.sfhover ul ul, #phsLeft li.sfhover ul ul ul {
+    left: -999em;
+	margin-left:180px;
+	margin-top:-22px;
+}
+
+#phsLeft li:hover ul, #phsLeft li li:hover ul, #phsLeft li li li:hover ul, #phsLeft li.sfhover ul, #phsLeft li li.sfhover ul, #phsLeft li li li.sfhover ul {
+    left: auto;
+}

@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* new Proxima Nova styles */
+
+
+
+		body {
+		    font-size: 100%;
+			margin: 20px;
+		}
+
+		/*
+		 * Web Fonts from fontspring.com
+		 *
+		 * All OpenType features and all extended glyphs have been removed.
+		 * Fully installable fonts can be purchased at http://www.fontspring.com
+		 *
+		 * The fonts included in this stylesheet are subject to the End User License you purchased
+		 * from Fontspring. The fonts are protected under domestic and international trademark and
+		 * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+		 * distributing this font software.
+		 *
+		 * (c) 2010-2016 Fontspring
+		 *
+		 *
+		 *
+		 *
+		 * The fonts included are copyrighted by the vendor listed below.
+		 *
+		 * Vendor:      Mark Simonson Studio
+		 * License URL: https://www.fontspring.com/licenses/mark-simonson-studio/webfont
+		 *
+		 *
+		 */
+
+		 /*
+			Proxima Nova Light + italic
+			Proxima Nova Regular + italic
+			Proxima Nova Medium + italic
+			Proxima Nova Semibold + italic
+			Proxima Nova Bold + italic
+		 */
+
+		/* Based on the Style Linking technique described at https://www.smashingmagazine.com/2013/02/setting-weights-and-styles-at-font-face-declaration/ */
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 400;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 400;
+			font-style: italic;
+		}
+
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 700;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 300;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 300;
+			font-style: italic;
+		}
+
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_medium_macroman/proximanova-medium-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 500;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_mediumitalic_macroman/proximanova-mediumit-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 500;
+			font-style: italic;
+		}
+
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibold_macroman/proximanova-semibold-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 600;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Proxima-Nova;
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.eot");
+			src: url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.eot?#iefix") format("embedded-opentype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.woff2") format("woff2"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.woff") format("woff"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.ttf") format("truetype"),
+				 url("https://campusfont.ucdavis.edu/proxima-nova/proximanova_semibolditalic_macroman/proximanova-semiboldit-webfont.svg#Proxima-Nova") format("svg");
+			font-weight: 600;
+			font-style: italic;
+		}
+
+		body {
+			font-family: 'Proxima-Nova', "Lucida Sans", Verdana, sans-serif;
+			font-size: 0.83em;
+			line-height: 1.2;
+		}
+
+		h1 {
+			font-weight: 700;
+			font-size: 2em;
+		}
+
+		h3 {
+			font-weight: 700;
+			font-size: 1.42em;
+		}
+
+		h4 {
+			font-weight: 100; 
+			font-size: 1.33em;
+		}
+
+
+		p {
+			font-weight: 400;
+			font-size: 3em;
+		}
+
+		.light {
+			font-weight: 300;
+		}
+		.med {
+			font-weight: 500;
+		}
+		.sb {
+			font-weight: 600;
+		}
+		.bold {
+			font-weight: 700;
+		}
+
+		strong {
+			font-weight: 700;
+		}
+		em {
+			font-style: italic;
+		}
+
+}

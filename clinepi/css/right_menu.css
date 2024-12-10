@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#phsRight {
+    float:right; 
+    clear:right;
+    margin-left:-180px; 
+    width:180px; 
+    overflow:hidden;
+    text-align: left;
+}
+
+#phsRight img{
+    margin: 0px;
+}
+
+#phsRight h3 {
+    font: 0.75em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font: 1.1em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+/* modified for PHS template right title bold */
+    font-weight:bold;
+	height:20px;
+    display:block;
+    margin-bottom:5px;
+/*    background: url(http://www.ucdmc.ucdavis.edu/global/themes/default/images/sidebar_arrow.gif) no-repeat ; */
+	background:url(../images/sidebar_arrow.gif) no-repeat;
+}
+
+#phsRight h3 {
+    padding:3px 5px 0px 30px;
+    margin-left: 0px;
+    display:block;
+    height:17px;
+    background-color: #D9C266;
+	border-bottom:0px;
+}   
+
+#phsRight h3 a {
+  text-decoration:none;
+  }
+
+#phsRight ul {
+    list-style: none;
+    font: 0.938em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font: 1em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    margin: 5px 0px 10px;
+}
+        
+#phsRight ul li {
+    font-size: 0.875em;  
+/*    font-size: 9pt;*/
+	width: 135px;
+/*    background: url(http://www.ucdmc.ucdavis.edu/global/themes/default/images/bullet.gif) 8px 3px no-repeat; */
+	background:url(../images/bullet.gif) 8px 3px no-repeat;
+    padding:3px 5px 0px 30px;
+margin-bottom:5px;
+}
+
+#phsRight ul li a {
+    /* font size modified for PHS right hand links */
+	text-decoration:none;
+	font-size: 0.938em; 
+/*	font-size: 9pt; */
+	font-weight:normal;
+}
+
+#phsRight a {
+    color:#002666;
+}
+    
+#phsRight a:hover {
+  color:#4C6794;
+}
+
+#phsRight p {
+/* added for PHS to enlarge right side items that are not links */
+	font-size: 0.938em;
+/*	font-size: 9pt; */
+	font-weight:normal;	
+} 
+
+/* End Sidebar Area */

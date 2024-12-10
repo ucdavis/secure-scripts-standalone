@@ -1,0 +1,1387 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 100%; /* IE hack */ 
+    height: 100%;
+}
+
+blockquote {
+  margin-left: 3em;
+    }
+
+#maincontainer { 
+    font-size: 100%; /* IE hack */ 
+    background-color: #fff;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+}
+
+/* #maincontainer td {
+    background-color: #fff;
+} */
+
+#maincontainer .footerrow {
+    height: auto;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+body {
+    font-size:1em;
+/*    font-size:62.5%; */
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+    background-color: #F2EBCC; 
+    height: 100%;
+}
+
+.contentheading {
+	padding: 0;
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-variant:small-caps;
+	vertical-align: bottom;
+	color: #002666;
+	text-align: left;
+	width: 100%;
+	margin-bottom:5px;
+}
+
+
+
+#frame {
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0px;
+    padding:0px;
+    text-align:left;
+    background-color:#fff;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+
+/* Start Breadcrumbs */
+
+#breadcrumb {
+    font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+    text-align:left;
+    font-size:1em;
+    margin:10px 10px 10px 0px;
+}
+
+#breadcrumb a {
+    color:#002666;
+}
+    
+#breadcrumb a:hover {
+  color:#4C6794;
+}
+
+/*End Breadcrumbs */
+
+/* Main Content Area */
+
+#main {
+    /* position:relative; */
+    width:100%;
+    text-align:center;
+    margin-top: 20px;
+} 
+
+#content {
+    /* width:600px; */
+    margin: 0px 200px;
+    font:0.75em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font:1.2em/1.5em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    text-align: left;
+}
+
+#main .r_sidebar {
+  margin-right:10px;
+  }
+
+#content p {
+    margin-bottom:1em;
+}
+    
+#content h1 {
+    font: bold 1.5em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-variant:small-caps;
+/*    font: bold 1.7em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    margin-bottom:.28em;;
+    color:#002666;
+} 
+        
+#content h2, .pagesubheading {
+    font: bold 1.313em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font: bold 1.4em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    margin-bottom: 0em;
+    margin-bottom:.56em;
+    color:#002666;
+}
+
+/*
+    
+#content h3 {
+    font: italic 1.4em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+    margin:1em 0;
+    color:#002666;
+} */
+        
+#content ul,ol {
+    margin-left:3em;
+    margin-bottom: .75em;
+}
+
+#content li{
+<!--[if IE 6]>
+align: top;
+<![endif]-->
+}
+#content .bluebullet li {
+	list-style: none;
+	background: url(/images/bullet_blue.gif) no-repeat 0px 5px;
+	margin-left:-10px;
+	padding-left: 15px;
+	}
+
+
+#content a, #sidebar a {
+    color:#002666;
+}
+    
+#content a:hover, #sidebar a:hover {
+    color:#4C6794;
+}
+
+.detail {
+  margin-bottom:1.4em;
+    }
+
+.detail td {
+  padding:.5em;
+    }
+
+.pageHeadImage {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* Begin Contact Us Include */
+
+#contactinfo .contactus {
+    color: #002666;
+    font-size: 0.938em;
+/*    font-size: 1.1em; */
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+#contactinfo .contactus a:link {
+    color: #002666;
+    text-decoration: none;
+}
+
+#contactinfo .contactus a:visited {
+    color: #002666;
+    text-decoration: none;
+}
+
+#contactinfo .contactus a:active { color: red }
+
+#contactinfo .contactus a:hover {
+    color: #002666;
+    text-decoration: underline;
+}
+
+#contactinfo .contactusBorder {
+    background-color: #dce4f1;
+}
+
+/* End Contact Us Include */
+
+/* End Main Content Area */     
+        
+/* Sidebar Area */      
+
+#sidebarContainer {
+    float:right;
+    clear:right;
+    width:180px;
+    margin-left:-180px;
+    overflow:hidden;
+    text-align:left;
+}
+
+#sidebarContainer img{
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    /* float:right; */
+    width:180px;
+    overflow:hidden;
+    text-align: left;
+}
+
+
+#sidebar img{
+    margin: 0px;
+}
+
+#sidebar h1 {
+    font: 0.688em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font: 1.1em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    height:20px;
+    display:block;
+    margin-bottom:5px;
+    background: url(/images/sidebar_arrow.gif) no-repeat ;
+}
+
+#sidebar h1 div {
+    padding:3px 5px 0 10px;
+    margin-left: 20px;
+    display:block;
+    height:17px;
+    background-color: #D9C266;
+}   
+
+#sidebar h1 div a {
+  text-decoration:none;
+  }
+
+#sidebar ul {
+    list-style: none;
+    font: 0.875em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+/*    font: 1em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    margin: 5px 0px 10px;
+}
+        
+#sidebar ul li {
+    font-size: 0.938em;
+/*    font-size: 1.1em; */
+    width: 135px;
+    background: url(/images/bullet.gif) 8px 3px no-repeat;
+    padding:3px 5px 0 30px;
+}
+
+#sidebar ul li a {
+    text-decoration:none;
+}
+
+#sidebar a {
+    color:#002666;
+}
+    
+#sidebar a:hover {
+  color:#4C6794;
+}
+
+/* End Sidebar Area */
+
+/*Begin Footer Area */
+                
+#footer {
+    bottom: 0px;
+    text-align:left;
+    font: 0.75em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; 
+/*    font: 1.1em Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
+    clear:both;
+    background-color:#002666;
+    color: #CCD4E0;
+    padding:5px;
+    margin-top:15px;
+    position: relative;
+}
+
+#footer a{
+    color: #CCD4E0;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+/* End Footer Area */
+
+    
+/***************** Begin Left Nav **************************/
+
+/***************** DHTML **************************/
+.navbarContainer {
+    position: relative;
+    margin-top: 15px;
+    float: left;
+    width: 200px;
+    z-index: 5;
+}
+
+#hideDhtml {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    visibility: hidden;
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.dhtmlnav {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    z-index: 8;
+}
+
+.dhtmlsubnav {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    z-index: 10;
+}
+
+.dhtmlOff {
+    position: absolute;
+}
+
+.dhtmlIframe {
+    filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    z-index: 2;
+}
+
+
+/***************** Start Base **************************/
+#leftNavMain {
+    text-align: left;
+    float: left;
+    clear:left;
+    margin-top: 0px;
+    width: 180px;
+    /* margin-right:-180px; */
+    background-color: transparent;
+    font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+    font-size: 1em;
+/*    font-size: 1.2em; */
+    font-weight: bold;
+}
+
+/*
+#maincontainer #leftNavMain {
+    text-align: left;
+    position: absolute;
+    top:-11px;
+    left: 0;
+    width: 180px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+ .leftNavMain {
+    text-align: left;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+} */
+
+.dhtmlnav {
+    left: 170px;
+    top: -1px;
+}
+
+.navbarContainer {
+    border-top: solid 1px #99a8c2;
+    width: 170px;
+    /* position:absolute; */
+}
+
+.mainNavItemOff,
+.mainNavItemOff:hover,
+.mainNavItemOn,
+.mainNavItemIn {
+    display: block;
+    border-bottom: solid 1px #99a8c2;
+    width: 153px;
+    font-size: 90%;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    background-color: #ffffff;
+    color: #002666;
+}
+.mainNavItemOff:hover, .mainNavItemOn {
+    background-color: #dee6f2;
+    color: #002666;
+}
+.mainNavItemIn {
+    background-color: #f2ebcc;
+    color: #002666;
+}
+* html .mainNavItemOff,
+* html .mainNavItemOff:hover,
+* html .mainNavItemIn,
+* html .mainNavItemOn {
+    width: 153px;
+}
+
+.dhtmlnavitem,
+.dhtmlnavitem:hover,
+.dhtmlnavitemOn,
+.dhtmlnavitemIn {
+    display: block;
+    font-size: 0.875em; 
+/*    font-size: 90%; */
+    font-weight: normal;
+    padding-left: 11px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    width: 184px;
+    text-decoration: none;
+    background-color: #dee6f2;
+    color: #002666;
+}
+.dhtmlnavitem:hover, .dhtmlnavitemOn {
+    background-color: #002666;
+    color: #ffffff;
+}
+.dhtmlnavitemIn {
+    background-color: #f2ebcc;
+    color: #002666;
+}
+* html .dhtmlnavitem,
+* html .dhtmlnavitem:hover,
+* html .dhtmlnavitemOn,
+* html .dhtmlnavitemIn {
+    width: 184px;
+}
+
+.dhtmlSubnavContainer {
+    position: relative;
+}
+
+.dhtmlsubnav {
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=135, Strength=5);
+    top: 0px;
+    left: 200px;
+    width: 200px;
+    border: solid 1px #002666;
+}
+
+.dhtmlsubnavPlusSign {
+    position: relative;
+    float: right;
+    display: inline;
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+.dropdownBox {
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=135, Strength=5);
+    border: solid 1px #002666;
+    width: 200px;
+}
+
+.hr {
+    background-color: #ffffff;
+    width: 200px;
+}
+
+.subnavArrow {
+    float: right;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+
+.navbarHeader {
+    color: #002666;
+    background-color: #ffffff;
+    border-top: solid 1px #99a8c2;
+    border-bottom: solid 1px #99a8c2;
+    width: 162px;
+    font-size: 0.813em;
+/*    font-size: 80%; */
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+* html .navbarHeader, * html .navbarHeaderIn {
+    width: 170px;
+}
+.navbarHeaderIn {
+    color: #002666;
+    background-color: #f2ebcc;
+    border-top: solid 1px #99a8c2;
+    border-bottom: solid 1px #99a8c2;
+    width: 162px;
+    font-size: 0.813em;
+/*    font-size: 80%; */
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navbarHeader:hover, .navbarHeaderIn:hover {
+    background-color: #dee6f2;
+}
+/***************** End Base **************************/
+
+
+.top {
+margin-top:0px;
+}
+.quote {
+border-bottom:2px solid #D9C266;
+border-top:2px solid #D9C266;
+font-family:georgia,"times new roman",times,serif;
+font-size:1.063em;
+/*font-size:1.17em; */
+line-height:normal;
+padding:10px 0px;
+}
+.quote img {
+margin:5px;
+}
+.photo {
+font-family:arial,helvetica,geneva,swiss,sunsans-regular;
+font-size:0.75em;
+/*font-size:0.91em; */
+line-height:normal;
+}
+.photo img {
+margin-bottom:5px;
+}
+
+/***************** End Left Nav **************************/
+
+.big {
+  width:100%;
+    }
+
+/* VFE Styles Section */
+
+.subheading_1, .pagesubheading, h2 {
+    font: bold 1.313em Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+    margin-bottom: 0em;
+    margin-bottom:.56em;
+    color:#002666;
+  }
+
+.subheading_2, h3 {
+  font-size: 1.125em;
+/*  font-size: 100%; */
+  margin: 0px;
+  padding: 0px;
+  border-bottom:1px solid #D9C266;
+  margin-bottom: 1em;
+  font-weight:bold;
+  }
+    
+.left {
+  float:left;
+    margin:10px 10px 10px 0;
+    }
+    
+.right {
+  float:right;
+    margin:10px 0 10px 10px;
+    }
+    
+.left_top {
+  float:left;
+    margin:0 10px 10px 0;
+    }
+    
+.right_top {
+  float:right;
+    margin:0 0 10px 10px;
+    }
+
+.pullquote_left {
+  width:300px;
+  display:block;
+    border-top: solid 2px #d9c266;
+    border-bottom: solid 2px #d9c266;
+    background-color: #F9F6E8;
+    padding:5px;
+    font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+  float:left;
+    margin:0 10px 10px 0;
+    }
+
+.pullquote_right {
+  width:300px;
+  display:block;
+    border-top: solid 2px #d9c266;
+    border-bottom: solid 2px #d9c266;
+    background-color: #F9F6E8;
+    padding:5px;
+    font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+  float:right;
+    margin:10px 0 10px 10px;
+    }
+    
+.box_left {
+  width:200px;
+    display:block;
+    border: solid 1px #d9c266;
+    background-color: #F9F6E8;
+    padding:5px;
+  float:left;
+    margin:10px 10px 10px 0;
+    }   
+    
+.box_right {
+  width:200px;
+    display:block;
+    border: solid 1px #d9c266;
+    background-color: #F9F6E8;
+    padding:5px;
+    float:right;
+    margin:10px 0 10px 10px;
+    z-index:1;
+        }
+
+#content .box_right p, #content .box_left p {
+  margin:7px 0;
+    }
+
+#content .box_right ul, #content .box_left ul {
+  padding-left:0pt;
+  margin:5px 0px 5px 0px;
+  }       
+        
+#content .box_right ul li, #content .box_left ul li, #content .blue_bg ul li, #content .gold_bg ul li {
+  list-style-type: square; 
+    margin-left:1.3em;
+    margin-bottom:5px;
+    }
+		
+#content .box_right a {
+  text-decoration:none;
+	}
+		
+ul.doublespace li, ol.doublespace li {
+  margin-bottom:1em;
+    }
+
+img.yellow_border {
+  caption: Yellow Border;
+  border: solid 1px #d9c266;
+    }
+
+.plain_box {
+  border: solid 1px #d9c266;
+  padding:5px;
+  }  
+
+.photo_caption_right {
+   width:300px;
+   display:block;
+/*     font-size:.8em; */
+     font-size:.75em;
+     float:right;
+     margin:10px 0 10px 10px;
+		 line-height: 1.3;
+     }
+     
+.photo_caption_left {
+   width:300px;
+   display:block;
+/*     font-size:.8em; */
+     font-size:.75em;
+     float:left;
+     margin:10px 10px 10px 0;
+		 line-height: 1.3;
+		 }
+		
+table.nice {
+    border:4px 0 4px 0;
+    border-color:#335185;
+    border-collapse: collapse;
+    font-size:1em;
+/*    font-size:100%; */
+    }
+
+table.nice th {
+  background:#667DA3;
+    color:white;
+    font-size:1em;
+/*    font-size:1.2em; */
+    font-weight:bold;
+    border-bottom: 1px;
+    border-color:#335185;
+    text-align:left;
+    padding:1em 1.5em;
+    }
+
+table.nice tbody tr:hover {
+ background:green;
+ }
+ 
+table.nice tbody td {
+  background:#CCD4E0;
+    border-bottom: 1px;
+    border-color:gray;
+    padding:1em 1.5em;
+    }
+    
+.photo_caption_top_right {
+	 width:300px;
+   display:block;
+   font-size:.75em;
+/*   font-size:.8em; */
+   float:right;
+   margin:0 0 10px 10px;
+	 line-height: 1.3;
+   }
+     
+.photo_caption_top_left {
+	 width:300px;
+   display:block;
+   font-size:.75em;
+/*   font-size:.8em; */
+   float:left;
+   margin:0 10px 10px 0;
+	 line-height: 1.3;
+	 }
+
+.auto-number {
+  list-style-type:upper-roman;
+	}
+  .auto-number ol {list-style-type:upper-alpha;}
+  .auto-number ol ol {list-style-type:decimal;}
+  .auto-number ol ol ol {list-style-type:lower-alpha;}
+  .auto-number ol ol ol ol {list-style-type:decimal;}
+  .auto-number li {padding-bottom:1em;}
+	
+.roman-numeral {
+  list-style-type:upper-roman;
+	}
+
+.upper-case {
+  list-style-type:upper-alpha;
+	}
+
+.lower-case {
+  list-style-type:lower-alpha;
+	}
+
+.numbers {
+  list-style-type:decimal;
+	}
+	
+/* Sidebar Styles */
+
+/* Sidebar 1 */
+
+#sidebar1 {
+  overflow:hidden;
+  }
+
+.side_01 {
+  width:153px;
+  float:right;
+  margin:0 0 20px 5px;
+  padding-left:27px;
+  position:relative;
+  right:-10px;
+  font-size:.875em;
+/*  font-size:.9em; */
+  }
+	
+#content #sidebar1.side_01 h2 {
+  background:url(/images/goldbar.gif) no-repeat;
+  height:13px;
+  padding:3px 0 4px 25px;
+  font-size:0.875em;
+/*  font-size:11px; */
+  font-weight:normal;
+  margin-left:-27px;
+  overflow:hidden;
+  }
+
+#sidebar1.side_01 div {
+  padding-right: 10px;
+  }
+
+#content #sidebar1.side_01 h2 a {
+  text-decoration:none;
+  }
+
+#content #sidebar1.side_01 h2 a:hover {
+  color:#4C6794;
+  }
+ 
+#content #sidebar1.side_01 ul {
+  list-style-type: circle;
+  margin-left:0;
+  list-style-type:disc;
+  }
+
+#content #sidebar1.side_01 ul li a {
+  text-decoration:none;
+  }
+
+/* Sidebar 2 */
+
+.side_02 {
+  width:211px;
+  float:right;
+
+  margin:0 0 20px 20px;
+  padding-left:30px;
+  }
+#content #sidebar1.side_02 h2 {
+  background:url(/images/fadebar.jpg) no-repeat;
+  height:13px;
+  padding:0 0 6px 30px;
+  font-size:1em;
+/*  font-size:1.25em; */
+  font-weight:bold;
+  overflow:hidden;
+  margin-left:-30px;
+  }
+#content #sidebar1.side_02 h2 a {
+  text-decoration:none;
+  }
+
+#content #sidebar1.side_02 h2 a:hover {
+  color:#4C6794;
+  }
+
+#content #sidebar1.side_02 ul {
+  list-style-image: url(/images/bullet.gif);
+  margin-left:0;
+  }
+
+#content #sidebar1.side_02 ul li a {
+  text-decoration:none;
+  }
+
+/* Sidebar 3 */
+
+.side_03 {
+  background-color:#F9F6E8;
+  border:1px solid #D9C266;
+  display:block;
+  float:right;
+  margin:10px 0 10px 10px;
+  padding:10px;
+  width:180px;
+  z-index:1;
+	color:#002266;
+  }
+#content #sidebar1.side_03 h2 {
+  font-size:1.125em;
+/*  font-size:115%; */
+  font-weight:bold;
+  margin:0 0 0.4em;
+  padding:0;
+  }
+
+#content #sidebar1.side_03 h2 a {
+  text-decoration:none;
+  }
+
+#content #sidebar1.side_03 h2 a:hover {
+  color:#4C6794;
+  }
+
+ 
+#content #sidebar1.side_03 ul {
+  margin-left:1.3em;
+  }
+
+#content #sidebar1.side_03 ul li a {
+  text-decoration:none;
+  }
+
+/* Sidebar 4 */
+
+.side_04 {
+  border-bottom:1px solid #002666;
+  border-left:1px solid #002666;
+  border-right:1px solid #002666;
+  display:block;
+  float:right;
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-top:20px;
+  text-align:left;
+  width:200px;
+  font-size:0.875em;
+/*  font-size:1em; */
+  }
+#content #sidebar1.side_04 h2 {
+  background:#002666 none repeat scroll 0 0;
+  border-bottom:1px solid #002666;
+  border-top:1px solid #002666;
+  color:#FFFFFF;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:1.25em;
+/*  font-size:1.4em; */
+  font-weight:bold;
+  padding-bottom:1px;
+  padding-left:10px;
+  padding-top:1px;
+  }
+
+#content #sidebar1.side_04 h2 a {
+  text-decoration:none;
+  color:white;
+  }
+
+#content #sidebar1.side_04 h2 a:hover {
+  color:#4C6794;
+  }
+
+#content #sidebar1.side_04 p {
+  font-family: Arial,Helvetica,sans-serif;
+  margin-bottom:10px;
+  margin-top:10px;
+  padding-left:10px;
+  padding-right:10px;
+	}
+	
+#content #sidebar1.side_04 ul {
+  list-style-type: disc; 
+  margin-left:2.5em;
+  }
+
+#content #sidebar1.side_04 ul li a {
+  text-decoration:none;
+  }
+  
+  #sharethis {
+    /* width: 300px; */
+    float: right; 
+    font-size: 0.938em; 
+/*    font-size: 1.1em;  */
+    font-family: Arial;
+    text-align:right;
+    margin: 0px;
+    padding: 3px;    
+    }
+    
+  #sharethis a {
+    text-decoration:none;
+  }
+
+  /* left nav images css */
+  
+#contentleft {
+   /* width:180px; */
+    float:left;
+    padding:0px;
+    background: transparent;
+    font: Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+    word-wrap: break-word;
+}
+  /*
+#contentleft ul {
+    margin: 600px 15px 15px 30px;
+    list-style-type:none;
+    display:block;
+	width:180px;
+}
+    
+#contentleft ul li {
+    margin-bottom:10px;
+    font: bold 10px Verdana, Helvetica, Arial, sans-serif;
+}
+    
+#contentleft ul a {
+    color:#002666;
+    text-decoration:none;
+    line-height:1.5;
+}
+
+#contentleft ul a:hover {
+    color: #BF9900;
+}
+*/
+
+/* Left-Nav styles */
+
+.leftnavitem {
+    margin: 15px 10px 15px 15px;
+    font: 0.938em Verdana, Helvetica, Arial, sans-serif;
+/*    font: 1em Verdana, Helvetica, Arial, sans-serif; */
+    text-align: left;
+    float: left;
+    width: 153px;
+	clear:left;
+	display: inline;
+}
+
+
+.leftnavitem ul {
+  margin-bottom:0.75em;
+  margin-left:3em;
+  }
+
+.leftnavitem a {
+	color:#002266;
+	text-decoration:none;
+}
+
+.leftnavitem a:hover {
+	color:#BF9900;
+}
+
+.leftnavitem img {
+	border:0px none;
+	float:left;
+	margin-right:5px;
+}
+
+#leftColumn p.subheading_3, #leftColumn h4 {
+  font-size: 1.313em;
+/*  font-size: 1.5em; */
+  font-weight:normal;
+  margin: 0px;
+  padding: 3px 5px 0px 5px;
+  height:20px;
+  background-image:url("/images/leftcolsidebarHDBG.gif");
+  margin-bottom: 5px;
+  }
+
+#leftColumn p.subheading_4, #leftColumn h5 {
+  font-size: 1.313em;
+/*  font-size: 1.5em; */
+  font-weight:bold;
+  color:white;
+  margin: 0px;
+  padding: 3px 5px 0px 5px;
+  height:20px;
+  background-image:url("/images/leftcolsidebarHDBG_blue.gif");
+  margin-bottom: 5px;
+  }
+  
+.nav_box {
+  display:block;
+  border: solid 1px #d9c266;
+  background-color: #F9F6E8;
+  padding:5px;
+  margin:0px;
+  z-index:1;
+  }
+  
+.leftnavitem p.subheading_2, .leftnavitem  h3 {
+  margin-bottom: 5px;
+  }
+
+.subheading_1, .pagesubheading, h2 {
+  font-size: 1.313em; 
+/*  font-size: 1.5em; */
+  margin-bottom: 5px;
+  }
+  
+.blue_bg {
+  padding:5px;
+  background-color:#EBEEF3;
+  width:143px;
+  overflow:hidden;
+  }
+  
+.gold_bg {
+  padding:5px;
+  background-color:#F9F6E8;
+  width:143px;
+  overflow:hidden;
+  }
+  
+.blue_bg  p.subheading_4, .blue_bg  h5, .gold_bg  p.subheading_4, .gold_bg  h5 , .blue_bg  p.subheading_3, .blue_bg  h4, .gold_bg  p.subheading_3, .gold_bg  h4 {
+  position:relative;
+  width:143px;
+  top: -5px;
+  left: -5px;
+  margin-bottom: 1px;
+  }
+  
+/* Attempt to fix footer creep */
+
+/* #footercontainer, #footer, #content, .detail {
+  zoom:1;
+  }
+*/
+
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+ text-align: left;
+}
+
+.r_sidebar .tabberlive {
+  width:570px;
+  }
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+#content ul.tabbernav
+{
+ margin:0;
+ padding: 0;
+ border-bottom: 1px solid #CCD4E0;
+ font: 0.813em Arial,Helvetica,sans-serif;
+/* font: 13px Arial,Helvetica,sans-serif; */
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 4px 0.5em;
+ color: #333333;
+ border: 1px solid #CCD4E0;
+ border-bottom: none;
+ text-decoration: none;
+ font:0.813em Arial,Helvetica,sans-serif;
+/* font:13px Arial,Helvetica,sans-serif; */
+ background-image:url("/images/tabBG-up.gif");
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+#content ul.tabbernav li a:hover
+{
+	background:none;
+	background-image:url("/images/tabBG-over.gif");
+	color: #4c6794;
+  	border: 1px solid #ccd4e0;
+	border-bottom:none;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ background-image:url("/images/tabBG-down.gif");
+ border-color:#CCD4E0 #CCD4E0 -moz-use-text-color;
+ border-style:solid solid none;
+ border-width:1px 1px 0; 
+border-bottom: 1px solid #fff;
+ border-bottom:none;
+ color: #335185;
+ /*position:relative;
+ top:1px; */
+}
+
+#content ul.tabbernav li.tabberactive a:hover
+{
+ color: #4c6794;
+ background: none;
+ background-image:url("/images/tabBG-down.gif");
+ border-bottom: none;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:15px;
+ border:1px solid #CCD4E0;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+
+/* trick to fix 3px bug */
+
+.tabbernav li a {
+  display: inline-block;
+  }
+
+/* end trick */
+
+/* Rollover Menu */
+
+#content ul.menu {
+  list-style-type:none;
+  margin:0pt;
+  padding:0pt;
+  width:200px;
+  font-size:0.688em;
+/*  font-size:11px; */
+  margin-bottom:1em;
+  float:right;
+  margin:0 0 10px 10px;
+  }
+
+#content ul.menu ul {
+  list-style-type:none;
+  margin:0pt;
+  padding:0pt;
+  width:200px;
+  font-size:0.688em;  
+/*  font-size:11px; */
+    }
+    
+ul.menu li {
+  background-color:#D2B84C;
+    font-weight:bold;
+    padding:0;
+    margin:0;
+    }
+
+ul.menu li strong {
+  padding:5px;
+    line-height:2em;
+  }
+    
+ul.menu li li {
+  border-bottom:1px solid #D7C061;
+  margin:0pt;
+  padding:0pt;
+    background-color:#F2EBCC;
+    font-weight:normal;
+  }
+    
+ul.menu ul li.bottom {
+  border-bottom:1px solid #F2EBCC;
+
+  }
+    
+ul.menu ul li a {
+  border-bottom:0px none;
+  display:block;
+  padding:5px;
+  position:relative;
+    text-decoration:none;
+  }
+    
+ul.menu ul li a:hover {
+  background-color:#DFCC80;
+    color:#77160B;
+  }
+
+li a {
+  zoom:1;
+    }
+
+/* Hover Table Design */
+
+
+.hover_table {
+  border-top:3px solid #2A2D3C;
+
+  border-bottom:3px solid #2A2D3C;
+  font-size:0.75em;
+/*  font-size:12px; */
+  margin-bottom:20px;
+  border-collapse:collapse;
+
+  color:#002266;
+  font-family:Arial,Helvetica,sans serif;
+  }
+
+
+
+
+
+.hover_table td, th {
+  padding:8px 10px;
+  border-bottom:1px dotted black;
+	vertical-align:top;
+  }
+
+.hover_table th {
+  font-weight:bold;
+
+
+  font-size:1em;
+/*  font-size:1.2em; */
+  border-bottom:1px solid black;
+  vertical-align:bottom;
+
+  }
+
+.hover_table tr:hover {
+  background-color:#FFFBCC;
+  }
+
+
+
+
+.hover_table tfoot td {
+  border:none;
+  padding-top 10px;
+  font-weight: bold;
+  }
+	
+.hover_table ul {
+  margin-left:0;
+	padding-left:1.1em;
+	list-style-type:circle;
+	}
+	
+/* C.Coulon: added an override to remove zoom from sidebar list link elements - Aug 26, 2011 */
+#sidebar1 li a { zoom:0 }

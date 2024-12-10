@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>p66Shc Data Center</title>
+</head>
+
+<body>
+
+
+
+<strong>Experiment/Data Description</strong>
+
+<form name= "data_login" method= "post" action= "data/data_center.php">
+	<table border= "0">
+		<tr>
+        	<td colspan="2">Experiment Related Information</td>
+        </tr>
+        
+        <tr><td>&nbsp;</td></tr>
+
+		<tr>
+			<td>Authors:</td>
+			<td><input type= "text" name= "data_authors" size= "60"/></td>
+		</tr>
+        
+		<tr>
+			<td>Laboratory:</td>
+			<td><input type= "text" name= "data_lab" size= "60"/></td>
+		</tr>
+        
+        <tr>
+        	<td>Contact:</td>
+            <td><input type= "text" name= "data_contact" size= "60" /></td>
+        </tr>
+
+        <tr>
+        	<td>Title:</td>
+            <td><input type= "text" name= "data_title" size= "60" /></td>
+        </tr>
+
+		<tr>
+			<td>Oragnism(s):</td>
+			<td><input type= "text" name= "data_organ" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Tissue(s):</td>
+			<td><input type= "text" name= "data_tissue" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Extracted Molecule:</td>
+			<td><input type= "text" name= "data_exmol" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Extracted Protocol and Labeling:</td>
+			<td><input type= "text" name= "data_prolab" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Hybridization Protocol:</td>
+			<td><input type= "text" name= "data_hybrid" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Scan Protocol:</td>
+			<td><input type= "text" name= "data_scan" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Data Processing:</td>
+			<td><input type= "text" name= "data_process" size= "60"/></td>
+		</tr>
+
+		<tr>
+			<td>Quality Control Steps Taken:</td>
+			<td><input type= "text" name= "data_quality" size= "60"/></td>
+		</tr>
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+
+		<tr><td colspan="2"><hr /></td></tr>
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+                
+		<tr>
+        	<td colspan="2">Type of Experiment</td>
+        </tr>
+        
+        <tr><td>&nbsp;</td></tr>
+
+		<tr>
+			<td>Experiment Type:</td>
+			<td>
+            	<select name= "data_extype">
+                	<option value="none">(Select Type)</option>
+                    <option value="normal vs. p66Shc KO">normal vs. p66Shc KO</option>
+                    <option value="normal vs. CR">normal vs. CR</option>
+                </select>	
+            </td>
+		</tr>
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+        
+		<tr>
+			<td>Experimental Factors:</td>
+			<td>
+            	<select name= "data_exfactor">
+                	<option value="none">(Select Factor)</option>
+                    <option value="Genetic Variation">Genetic Variation</option>
+                    <option value="Age">Age (cross-sectional or longitudinal</option>
+                    <option value="Sex">Sex</option>
+                    <option value="Response to Treament">Response to Treament</option>
+                </select>	
+            </td>
+		</tr>
+        
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+
+		<tr><td colspan="2"><hr /></td></tr>
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+                
+		<tr>
+        	<td colspan="2">For Gene Expression Experiment</td>
+        </tr>
+        
+        <tr><td>&nbsp;</td></tr>
+
+        <tr>
+        	<td>How many hybridizations (chips) in the experiment?:</td>
+            <td><input type= "text" name= "data_chips" size= "60" /></td>
+        </tr>
+
+        <tr>
+        	<td>Data of chip generation:</td>
+            <td><input type= "text" name= "data_chipgen" size= "60" /></td>
+        </tr>
+
+		<tr>
+			<td>Platform or chip type:</td>
+			<td><input type= "text" name= "data_platform" size= "60"/></td>
+		</tr>
+
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+
+
+	</table>
+</form>
+
+
+
+</body>
+</html>

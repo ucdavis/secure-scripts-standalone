@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/p66Shc_text.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>p66Shc - Data File</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="../css/p66Shc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body topmargin="0">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F7FAFF">
+	<tr>
+    	<td valign="top" background="../images/banner_bkgrd.jpg"><img src="../images/p66_banner.jpg" width="600" height="64" /></td>
+  	</tr>
+
+	<tr>
+    	<td valign="middle" bgcolor="#FFFFFF" height="30px" class="top_menu">&nbsp;&nbsp;&nbsp;
+          <a href="http://p66Shc.phs.ucdavis.edu/index.htm" class="top_menu">Introduction</a>&nbsp;&nbsp;&#8226;
+          <a href="http://p66Shc.phs.ucdavis.edu/projects.htm" class="top_menu">Projects & Cores</a>&nbsp;&nbsp;&#8226;
+          <a href="http://p66Shc.phs.ucdavis.edu/data_login.php" class="top_menu">Data Center</a>&nbsp;&nbsp;&#8226;
+<!--          <a href="https://secure.phs.ucdavis.edu/p66Shc/data_login.php" class="top_menu">Data Center</a>&nbsp;&nbsp;&#8226; -->
+          <a href="http://p66Shc.phs.ucdavis.edu/publications.php" class="top_menu">Publications</a>&nbsp;&nbsp;&#8226;
+          <a href="http://p66Shc.phs.ucdavis.edu/contact.htm"  class="top_menu">Contact Us</a> </td>
+  </tr>
+
+	<tr>
+    	<td height="1px" bgcolor="#18477B"></td>
+    </tr>
+    
+	<tr>
+    	<td valign="top">
+        	<table width="100%" cellpadding="2" cellspacing="2" border="0">
+
+            	<tr>
+               	   <td width="20%" valign="top" bgcolor="#F8F7FF"><!-- InstanceBeginEditable name="LeftNav" -->
+               	     <div id="left_nav">&nbsp;&nbsp;Member Login</div>
+               	     <div id="left_nav">&nbsp;&nbsp;Project 1</div>
+               	     <div id="left_nav">&nbsp;&nbsp;Project 2</div>
+               	     <div id="left_nav">&nbsp;&nbsp;Project 3</div>
+               	     <div id="left_nav">&nbsp;&nbsp;Project 4</div>
+               	     <div id="left_nav">&nbsp;&nbsp;Activity News</div>
+                     <div id="left_nav">&nbsp;&nbsp;Logout</div>
+               	   <!-- InstanceEndEditable --></td>
+
+                   <td width="80%" valign="top"><!-- InstanceBeginEditable name="Content" -->
+                     <form name= "data_login" method= "post" action= "data/data_center.php">
+	<table border= "0" width="100%">
+		<tr>
+        	<td colspan="2"><strong>UPLOAD DATA FILE</strong></td>
+        </tr>
+        
+        <tr><td>&nbsp;</td></tr>
+
+		<tr>
+			<td><strong>Project:</strong></td>
+			<td>
+            	<select name= "project">
+                	<option value="none">(Select Project)</option>
+                    <option value="Project 1">Project 1</option>
+                    <option value="Project 2">Project 2</option>
+                    <option value="Project 3">Project 3</option>
+                    <option value="Project 4">Project 4</option>
+                </select>            </td>
+		</tr>
+        
+		<tr>
+			<td><strong>Core:</strong></td>
+			<td>
+            	<select name= "core">
+                	<option value="none">(Select Core)</option>
+                    <option value="Project 1">Core A</option>
+                    <option value="Project 2">Core B</option>
+                    <option value="Project 3">Core C</option>
+                </select>            </td>
+		</tr>
+        
+        <tr>
+        	<td><strong>Data File:</strong></td>
+<!--   			<td><input type= "hidden" name= "MAX_FILE_SIZE" value= "1000000"></td> -->
+			<td><input type= "file" name= "liv_location" value= "" size= "30"></td>
+        </tr>
+        
+        <tr>
+        	<td><strong>Keyword(s):</strong></td>
+            <td><input type= "text" name= "liv_key" size= "45"/></td>
+        </tr>
+
+        <tr>
+        	<td><strong>Data:</strong></td>
+            <td><input type= "text" name= "liv_data" size= "45" /></td>
+        </tr>
+        
+
+        <tr>
+        	<td valign="top"><strong>Description:</strong></td>
+            <td><textarea name= "desc" cols= "50" rows="6"></textarea></td>
+        </tr>
+        
+        <tr>
+        	<td>&nbsp;</td>
+            <td><input type= "submit" name= "sub_data" value= "Upload Data File" /></td>
+        </tr>
+        
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+
+		<tr><td colspan="2"><hr /></td></tr>
+
+		<tr><td colspan="2">&nbsp;</td></tr>
+                
+       	<tr>
+        	<td colspan="2"><strong>RETRIEVE DATA FILE</strong></td>
+        </tr>
+        
+        <tr><td>&nbsp;</td></tr>
+
+		<tr>
+			<td><strong>Project:</strong></td>
+			<td>
+            	<select name= "project">
+                	<option value="none">(Select Project)</option>
+                    <option value="Project 1">Project 1</option>
+                    <option value="Project 2">Project 2</option>
+                    <option value="Project 3">Project 3</option>
+                    <option value="Project 4">Project 4</option>
+                </select>            </td>
+		</tr>
+        
+		<tr>
+			<td><strong>Core:</strong></td>
+			<td>
+            	<select name= "core">
+                	<option value="none">(Select Core)</option>
+                    <option value="Project 1">Core A</option>
+                    <option value="Project 2">Core B</option>
+                    <option value="Project 3">Core C</option>
+                </select>            </td>
+		</tr>
+        
+        <tr>
+        	<td><strong>Keyword(s):</strong></td>
+            <td><input type= "text" name= "liv_key" size= "45" /></td>
+        </tr>
+
+        <tr>
+        	<td>&nbsp;</td>
+            <td><input type= "submit" name= "sub_data" value= "Retrive Data File" /></td>
+        </tr>
+
+	</table>
+</form>
+
+
+
+<!-- InstanceEndEditable --> </td>
+                </tr>
+	       </table>
+      </td>
+    </tr>
+
+	<tr>
+    	<td height="3px" bgcolor="#18477B"></td>
+    </tr>
+    
+    <tr>
+    	<td valign="bottom" height="25px" bgcolor="#C4CCC9">
+        <div id="p66_foot">
+          <div align="left">
+            <div id="p66_foot2">
+              <div align="left">&nbsp;&nbsp;&nbsp;This project is supported by the US NIH/NIA under award number NIH/NIA P01 AG025532 &copy; 2009 p66Shc project. All rights reserved</div>
+            </div>
+          </div>
+        </div></td>
+  </tr>
+</table>
+
+
+</body>
+<!-- InstanceEnd --></html>

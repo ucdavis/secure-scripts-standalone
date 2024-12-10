@@ -1,0 +1,1 @@
+<img src="images/title.jpg" alt="rotating image" width="400" height="300" id="rotator">
